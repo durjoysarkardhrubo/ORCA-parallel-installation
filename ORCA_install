@@ -33,4 +33,8 @@ H         -5.17825        3.98999       -1.11256
 H         -3.69044        3.12115        0.39543
 
 
-10) run the input file like this command  : /home/durjoy/all_soft/ORCA/orca-6.1.0-f.0_linux_x86-64/bin/orca ethanol.inp > ethanol.out
+10) run the input file like this command  : /home/durjoy/all_soft/ORCA/orca-6.1.0-f.0_linux_x86-64/bin/orca ethanol.inp > ethanol.out  
+
+
+
+
