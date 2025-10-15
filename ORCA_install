@@ -16,7 +16,7 @@ export LD_LIBRARY_PATH="$/home/durjoy/all_soft/ORCA/orca-6.1.0-f.0_linux_x86-64/
 
 8) save the baschrc script.
 
-9) creat a orca input file(ethanol.inp) like the following : 
+9) creat a orca input file(ethanol.inp) like the following (here 6 is the number of processor you are using . you can use different according to your number of processors): 
 
 ! B3LYP D3BJ def2-TZVP TightSCF OPT
 %pal nprocs 6 end
