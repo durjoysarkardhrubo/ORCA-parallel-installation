@@ -1,0 +1,36 @@
+1) download orca-6.1.0-f.0_linux_x86-64_openmpi41.tar.xz from https://www.faccts.de/customer
+2) extract by using command: tar -xJvf orca-6.1.0-f.0_linux_x86-64_openmpi41.tar.xz 
+3) go to bin by commands:           cd orca-6.1.0-f.0_linux_x86-64     then   cd bin
+4) copy the present directory by using command : pwd
+5) copy the directory for example  : /home/durjoy/all_soft/ORCA/orca-6.1.0-f.0_linux_x86-64/bin (your path can be different from me)
+
+6) copy and pest the following line at the last of your .bashrc script 
+
+## ORCA orca-6.1.0
+export PATH=/home/durjoy/all_soft/ORCA/orca-6.1.0-f.0_linux_x86-64/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH="$/home/durjoy/all_soft/ORCA/orca-6.1.0-f.0_linux_x86-64/bin"
+
+
+7) paste your directory in 2nd line and 4th line of the above where the  /home/durjoy/all_soft/ORCA/orca-6.1.0-f.0_linux_x86-64/bin exist    directory exists
+
+8) save the baschrc script.
+
+9) creat a orca input file(ethanol.inp) like the following : 
+
+! B3LYP D3BJ def2-TZVP TightSCF OPT
+%pal nprocs 6 end
+
+* xyz 0 1
+C         -6.88941        3.48486        0.09389
+C         -5.41952        3.85423       -0.03481
+H         -7.15541        3.34817        1.16363
+H         -7.09450        2.54156       -0.45557
+H         -7.51859        4.29423       -0.33297
+O         -4.63279        2.82993        0.50504
+H         -5.23963        4.80261        0.51872
+H         -5.17825        3.98999       -1.11256
+H         -3.69044        3.12115        0.39543
+
+
+10) run the input file like this command  : /home/durjoy/all_soft/ORCA/orca-6.1.0-f.0_linux_x86-64/bin/orca ethanol.inp > ethanol.out
