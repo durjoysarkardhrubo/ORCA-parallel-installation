@@ -31,10 +31,24 @@ O         -4.63279        2.82993        0.50504
 H         -5.23963        4.80261        0.51872
 H         -5.17825        3.98999       -1.11256
 H         -3.69044        3.12115        0.39543
-
+*
 
 10) run the input file like this command  : /home/durjoy/all_soft/ORCA/orca-6.1.0-f.0_linux_x86-64/bin/orca ethanol.inp > ethanol.out  
 
+
+
+
+Himel Da problem   : 
+
+# Path
+
+## ORCA orca-6.1.0
+#export PATH=/home/himel/All_SOFT/ORCA/orca-6.1.0-f.0_linux_x86-64:$PATH
+#export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+#export LD_LIBRARY_PATH="$/home/himel/All_SOFT/ORCA/orca-6.1.0-f.0_linux_x86-64/bin"
+
+export PATH="/home/himel/All_SOFT/ORCA/orca-6.1.0-f.0_linux_x86-64/bin:$PATH"
+export LD_LIBRARY_PATH="/home/himel/All_SOFT/ORCA/orca-6.1.0-f.0_linux_x86-64/lib:$LD_LIBRARY_PATH"
 
 
 
